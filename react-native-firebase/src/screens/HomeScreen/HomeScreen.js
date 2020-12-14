@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { FlatList, Keyboard, Text, TextInput, TouchableOpacity, View } from 'react-native'
-import styles from './HomeStyles';
 import { firebase } from '../../firebase/config'
+import styles from './HomeStyles';
 
 export default function HomeScreen(props) {
 
